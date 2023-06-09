@@ -1,0 +1,16 @@
+.title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 44px;
+    color: #121212;
+    span {
+        color: #FF6428;
+    }
+    &_white{
+        color: #FFFFFF;
+    }
+    &_left{
+        width: 560px;
+        text-align: left;
+    }
+}

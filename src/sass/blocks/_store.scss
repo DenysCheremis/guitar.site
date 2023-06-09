@@ -1,0 +1,47 @@
+.store {
+    margin-top: 60px;
+    &__new, &__top {
+        margin-top: 75px;
+        &__wrapper {
+            display: flex;
+            justify-content: space-between;
+        }
+        &__descr {
+            font-weight: 600;
+            font-size: 20px;
+            letter-spacing: 0.08em;
+            color: #121212;
+            text-transform: uppercase;
+        }
+        &__viewall {
+            font-weight: 500;
+            font-size: 20px;
+            color: #868686;
+            text-decoration: none;
+        }
+        &__items{
+            margin-top: 32px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &__item{
+            max-width: 364px;
+            &__img{
+                width: 100%;
+            }
+            &__name{
+                margin-top: 40px;
+                font-weight: 500;
+                font-size: 16px;
+                color: #121212;
+            }
+            &__price{
+                margin-top: 7px;
+                font-weight: 400;
+                font-size: 14px;
+                color: #666666;
+            }
+        }
+    }
+}

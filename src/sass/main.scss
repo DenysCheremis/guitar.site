@@ -1,0 +1,19 @@
+@import 'blocks/promo';
+@import 'blocks/buttons';
+@import 'blocks/store';
+@import 'blocks/title';
+@import 'blocks/categories';
+@import 'blocks/brands';
+@import 'blocks/reasons';
+@import 'blocks/customer';
+@import 'blocks/download';
+@import 'blocks/footer';
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}

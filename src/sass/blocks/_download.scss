@@ -1,0 +1,16 @@
+.download{
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__stores{
+        display: flex;
+    }
+    &__google, &__apple{
+        margin-top: 46px;
+    }
+    &__img{
+        width: 568px;
+    }
+}

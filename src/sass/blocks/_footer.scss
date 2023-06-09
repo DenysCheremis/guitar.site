@@ -1,0 +1,100 @@
+.footer{
+    padding: 80px 0 43px 0;
+    position: relative;
+    min-height: 280px;
+    background: #EEEEEE;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    &__contacts{
+        &__logo{
+            display: block;
+            width: 226px;
+            img{
+                width: 100%;
+            }
+        }
+        &__mail{
+            margin-top: 28px;
+            position: relative;
+            display: block;
+            left: 40px;
+            font-weight: 400;
+            font-size: 16px;
+            color: #666666;
+            text-decoration: none;
+            &::before{
+                content: '';
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                background-image: url(../icons/footer/sms.svg);
+                background-size: cover;
+                position: absolute;
+                left: -40px;
+            }
+        }
+        &__adress{
+            position: relative;
+            left: 40px;
+            margin-top: 20px;
+            font-weight: 400;
+            font-size: 16px;
+            font-style: normal;
+            color: #666666;
+            &::before{
+                position: absolute;
+                left: -40px;
+                content: '';
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                background-image: url(../icons/footer/location.svg);
+                background-size: cover;
+            }
+        }
+    }
+    &__copyright{
+        position: absolute;
+        bottom: 43px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-weight: 400;
+        font-size: 16px;
+        color: rgba(18, 18, 18, 0.6);
+    }
+    &__links{
+        display: flex;
+        justify-content: space-between;
+        width: 325px;
+        &__pages, &__product{
+            div{
+                display: flex;
+                flex-direction: column;
+                a{
+                    margin-bottom: 16px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: rgba(18, 18, 18, 0.6);
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    &__title{
+        margin-bottom: 20px;
+        font-weight: 600;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #121212;
+    }
+    &__social{
+        width: 160px;
+        &__links{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}

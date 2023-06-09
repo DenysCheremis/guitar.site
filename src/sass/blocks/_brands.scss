@@ -1,0 +1,11 @@
+.brands{
+    margin: 220px 0 180px 0;
+    &__wrapper{
+        margin-top: 85px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 60px 160px;
+        justify-items: center;
+        align-items: center;
+    }
+}

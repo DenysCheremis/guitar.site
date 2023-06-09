@@ -1,0 +1,58 @@
+.customer{
+    min-height: 660px;
+    padding-top: 240px;
+    &__wrapper{
+        margin-top: 96px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__text{
+        width: 525px;
+        &__descr{
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 160%;
+            color: #666666;
+        }
+        &__persone{
+            margin-top: 56px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            &__name{
+                font-weight: 600;
+                font-size: 24px;
+                color: #000000;
+            }
+            &__profession{
+                margin-top: 8px;
+                font-weight: 500;
+                font-size: 18px;
+                letter-spacing: 0.08em;
+                color: #868686;
+            }
+            &__rating{
+                width: 70px;
+                height: 20px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 6px;
+                div{
+                    width: 10px;
+                    height: 16px;
+                    background: #C4C4C4;
+                    border-radius: 20px;
+                    &:first-child{
+                        margin-right: 3px;
+                        width: 24px;
+                        height: 12px;
+                        background: #FF6428;
+                        border-radius: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
